@@ -68,9 +68,11 @@ This project serves as a testament to the learning potential of taking on new ch
 ## Contributions
 Feel free to fork the repository and use it as a starting point for your own game development projects or experiments.
 
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for personal and educational purposes. However, please refrain from using this project for commercial purposes without obtaining appropriate permissions.
+
 
 ## Acknowledgments
 
