@@ -2,7 +2,8 @@
 
 ![Gameplay](gameplay.gif)
 
-This project, titled "Flappy Bird," is a Flappy Bird game clone developed using the Unity game engine. It was created as a part of a challenge to develop a popular game from scratch, without any prior knowledge of Unity or game development. The aim of this project is to showcase the learning journey and progress made throughout the development process.
+
+This project, named "Flappy Bird," is a recreation of the popular Flappy Bird game, developed using the Unity game engine. It was initiated as a challenge to build a well-known game from scratch, without any prior experience in Unity or game development. The objective of this project is to demonstrate the learning journey and the progress made throughout the development process.
 
 ## Game Description
 
@@ -29,19 +30,9 @@ The game incorporates the following features:
 - Sound effects and background music to enhance the gaming experience.
 - Easy-to-understand controls using mouse clicks or spacebar presses.
 
-## TODOs
-
-Here are some next features that could be implemented as future enhancements to "Another Flappy Bird":
-
-- **Score Tracking**: Score tracking system to keep track of the player's progress and high score records.
-- **Level progression**: Implement a system where the difficulty increases as the player progresses through levels. This could involve faster scrolling pipes or narrower gaps between them.
-- **Leaderboard**: Add a leaderboard system to track and display high scores achieved by players. This could be implemented locally or integrated with an online leaderboard service.
-- **Mobile Portrait screen**: Optimize the game for mobile devices and implement potrait screen for a seamless mobile gaming experience.
-- **Tutorial mode**: Create a tutorial mode or in-game instructions to help new players understand the game mechanics and controls more easily.
-
 ## Getting Started
 
-To run "Another Flappy Bird" on your local machine, follow the steps below:
+To run "Flappy Bird" on your local machine, follow the steps below:
 
 1. Clone the repository to your local machine or download the source code as a ZIP file.
 2. Open the project in Unity using a compatible version (recommended: Unity 2019.4.20f1 or later).
