@@ -12,18 +12,25 @@ public class LogicScript : MonoBehaviour
     public AudioSource gameOverMusic;
     public AudioSource gameMusic;
 
-
     void Start()
     {
-        gameMusic.Play();
+       
+        if (gameMusic != null) 
+        {
+            gameMusic.Play();
+        }
     }
 
     [ContextMenu("Increase Score")]
     public void addScore(int scoreToAdd)
     {
-        Debug.Log("Adding +" + scoreToAdd + " score");
-        playerScore += scoreToAdd;
-        scoreText.text = playerScore.ToString();
+        
+        if (scoreText != null) 
+        {
+            Debug.Log("Adding +" + scoreToAdd + " score");
+            playerScore += scoreToAdd;
+            scoreText.text = playerScore.ToString();
+        }
     }
 
     public void restartGame()
@@ -39,12 +46,14 @@ public class LogicScript : MonoBehaviour
 
     public void gameOver()
     {
-        if (!gameOverScreen.activeSelf)
+       
+        if (gameOverScreen != null && !gameOverScreen.activeSelf)
         {
-            gameMusic.Stop();
+            if (gameMusic != null) gameMusic.Stop();
+            
             gameOverScreen.SetActive(true);
-            gameOverMusic.Play();
+            
+            if (gameOverMusic != null) gameOverMusic.Play();
         }
-
     }
 }
